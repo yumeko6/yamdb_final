@@ -2,6 +2,7 @@ from rest_framework import serializers
 
 from .models import ROLES, User
 
+
 class UserSignUpSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
