@@ -1,4 +1,3 @@
-from api.permissions import AdminOrSuperuser
 from django.contrib.auth.tokens import default_token_generator
 from django.core.mail import EmailMessage
 from django.shortcuts import get_object_or_404
@@ -10,9 +9,11 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework_simplejwt.tokens import AccessToken
 
+from api.permissions import AdminOrSuperuser
 from .models import User
 from .serializers import CurrentUserSerializer, UserAuthSerializer
 from .serializers import UserCreateSerializer, UserSignUpSerializer
+
 
 @api_view(['POST'])
 def signup(request):
