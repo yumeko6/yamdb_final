@@ -12,7 +12,7 @@
 
 - Склонировать проект
 
-`git clone https://github.com/yumeko6/infra_sp2.git`
+`git clone https://github.com/yumeko6/yamdb_final.git`
 
 - Перейти в папку *infra*
 
