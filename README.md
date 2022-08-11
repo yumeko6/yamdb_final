@@ -2,6 +2,15 @@
 ### Описание
 ###### Проект YaMDb собирает отзывы (Review) пользователей на произведения (Titles). Произведения делятся на категории: «Книги», «Фильмы», «Музыка».
 
+### Сайт проекта Yatube
+https://yumeko.serveblog.net/
+
+### Сайт проекта Yamdb
+https://yumeko.serveblog.net/api/
+
+### Документация проекта Yamdb
+https://yumeko.serveblog.net/redoc/
+
 ### Используется
 [![Python](https://img.shields.io/badge/-Python_3.7.9-464646??style=flat-square&logo=Python)](https://www.python.org/downloads/)
 [![Django](https://img.shields.io/badge/-Django-464646??style=flat-square&logo=Django)](https://www.djangoproject.com/)
